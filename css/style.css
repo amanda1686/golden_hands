@@ -394,6 +394,83 @@ textarea{
 
 /**/
 
+/* Inicio de estilo servicios */
+
+.imageneser {
+  border-radius: 25px;
+  box-shadow: 0 10px 18px #000000;
+}
+
+#h1 {
+  color: #fafafa;
+  margin: 40px;
+  height: 30px;
+  margin-top: 30px;
+  background-color: #c78943;
+}
+
+.compañia  {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color: #91422b;
+  height: 350px;
+  margin: 40px;
+  
+}
+
+.compra {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color: #91422b;
+  height: 350px;
+  margin: 40px;
+  flex-direction: row-reverse;
+  
+
+}
+
+
+
+.limpieza {
+ 
+  display: flex;
+  color: #91422b;
+  height: 350px;
+  margin: 40px;
+  flex-flow: row;
+  justify-content: space-between;
+
+}
+
+
+.compañias,  .limpiezas {
+  width: 900px;
+  height: 50px;
+  margin-left: 70px;
+  
+}
+
+.compras {
+  width: 900px;
+  height: 50px;
+  margin-right: 70px;
+}
+
+.compañias, .compras, .limpiezas  {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.compañias ul, .compras ul, .limpiezas ul {
+  margin-top:40px;
+  
+}
+
+
+/* Fin estilo servicios */
+
 /*Responsive*/ /*con responsabilidad*/
  
 
