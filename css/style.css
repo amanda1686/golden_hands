@@ -62,7 +62,7 @@
     cursor: pointer;
   }
     
-  nav ul {
+  .navegacion ul {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -74,11 +74,11 @@
     width: 100px;
   }
     
-  nav li {
+  .navegacion li {
      margin: 0 15px;
   }
     
-  nav a {
+  .navegacion a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
