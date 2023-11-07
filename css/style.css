@@ -62,7 +62,7 @@
     cursor: pointer;
   }
     
-  .navegacion ul {
+  nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -74,11 +74,11 @@
     width: 100px;
   }
     
-  .navegacion li {
+  nav li {
      margin: 0 15px;
   }
     
-  .navegacion a {
+  nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -393,86 +393,50 @@ textarea{
 /* Fin de la seccion de contacto */
 
 /* Estilos para la sección About Us */
-
-/* Fin de la seccion de About Us */
-/**/
-
-/* Inicio de estilo servicios */
-
-.imageneser {
-  border-radius: 25px;
-  box-shadow: 0 10px 18px #000000;
+.acercade, .mision, .razones {
+  background-color: #F3D28A;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.5);
+  width: auto;
+  text-align: center;
+  margin: 100px;
 }
 
-#h1 {
-  color: #fafafa;
-  margin: 40px;
-  height: 30px;
-  margin-top: 30px;
-  background-color: #c78943;
-}
-
-.compañia  {
+.acercade, .mision, .razones {
   display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  color: #91422b;
-  height: 350px;
-  margin: 40px;
-  
 }
 
-.compra {
+.parrafo1, .parrafo2, .parrafo3 {
+  flex: 1;
+  padding: 10px; 
+  margin: 30px;
+}
+
+.mision {
   display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  color: #91422b;
-  height: 350px;
-  margin: 40px;
   flex-direction: row-reverse;
-  
-
 }
 
+.titulo {
+  color: #ffffff;
+  font-size: 50px;
+}
 
-
-.limpieza {
- 
-  display: flex;
+.textacercade, .textmision, .textrazones {
   color: #91422b;
-  height: 350px;
-  margin: 40px;
-  flex-flow: row;
-  justify-content: space-between;
-
+  margin: 60px;
+  font-size: 25px;
+  font-weight: 100;
 }
 
-
-.compañias,  .limpiezas {
-  width: 900px;
-  height: 50px;
-  margin-left: 70px;
-  
+.agradecimiento {
+text-align: center;
+color: #c78943;
+font-size: 35px;
 }
-
-.compras {
-  width: 900px;
-  height: 50px;
-  margin-right: 70px;
-}
-
-.compañias, .compras, .limpiezas  {
-  font-size: 20px;
-  margin-top: 40px;
-}
-
-.compañias ul, .compras ul, .limpiezas ul {
-  margin-top:40px;
-  
-}
-
-
-/* Fin estilo servicios */
+/* Fin de la seccion de About */
+/**/
 
 /*Responsive*/ /*con responsabilidad*/
  
