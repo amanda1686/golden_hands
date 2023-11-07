@@ -334,6 +334,94 @@
 
 /* aqui empieza el estilo de la seccion servicios */
 
+.imageneser {
+  border-radius: 25px;
+  box-shadow: 0 10px 18px #000000;
+}
+
+#h1 {
+  color: #fafafa;
+  margin: 40px;
+  height: 30px;
+  margin-top: 30px;
+  background-color: #c78943;
+  padding-left:12px;
+  box-shadow: 0 8px 10px #838080;
+}
+
+.compañia  {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color: #91422b;
+  height: 350px;
+  margin: 40px;
+  
+}
+
+.compra {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color: #91422b;
+  height: 350px;
+  margin: 40px;
+  flex-direction: row-reverse;
+  
+
+}
+
+.limpieza {
+ 
+  display: flex;
+  color: #91422b;
+  height: 350px;
+  margin: 40px;
+  flex-flow: row;
+  justify-content: space-between;
+
+}
+
+.butser {
+
+  background-color: #c78943;
+  margin-left: 240px;
+  margin-top:20px;
+  color: #ffff;
+  padding: 7px 25px;
+  box-shadow: 0 0 10px #754515 inset;
+  border-radius: 10px;
+}
+
+.butser img {
+  
+  height: 40px;
+}
+
+.compañias,  .limpiezas {
+  width: 900px;
+  height: 50px;
+  margin-left: 70px;
+  
+}
+
+.compras {
+  width: 900px;
+  height: 50px;
+  margin-right: 70px;
+}
+
+.compañias, .compras, .limpiezas  {
+  font-size: 20px;
+  margin-top: 15px;
+  
+}
+
+.compañias ul, .compras ul, .limpiezas ul {
+  margin-top: 25px;
+  
+}
+
 /* Fin de la seccion de servicios */
 
 /* Estilos para la sección contacto */
