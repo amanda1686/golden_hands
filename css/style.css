@@ -99,28 +99,47 @@
     display: flex;
     justify-content: space-between;
 }
-.link {
-  display: flex; 
-  flex-direction: column;
+.footer {
+  background-color: #90ccd1;
+  display: flex;
   align-items: center;
-}
-.link h3 {
-    display: flex; 
-    color: #white;
-    font-size: 17px;
-    margin-bottom: 10px;
+  justify-content: center; 
+  height: 100px; 
 }
 
-.link i {
-    color: #203048;
-    font-size: 20px;
-    display: flex;
-    margin-bottom: 10px;
+.footer-content {
+  text-align: center;
+}
+
+.link {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 20px; 
+}
+
+.link h3 {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.link ul {
+  list-style: none; 
+  padding: 0; 
+  display: flex;
+  gap: 10px; 
+
+.link li {
+  color: #203048;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .link i:hover {
-    color: azure;
+  color: azure;
 }
+
     
 /* Fin del estilo de Home*/
 
