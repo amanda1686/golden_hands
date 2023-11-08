@@ -99,7 +99,9 @@
     display: flex;
     justify-content: space-between;
 }
-
+.link {
+  display: flex; 
+}
 .link h3 {
     display: flex; 
     color: #white;
