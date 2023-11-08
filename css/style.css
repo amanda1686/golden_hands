@@ -101,6 +101,7 @@
 }
 
 .link h3 {
+    display: flex; 
     color: #white;
     font-size: 17px;
     margin-bottom: 10px;
