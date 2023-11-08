@@ -93,6 +93,28 @@
     justify-content: center;
     height: 82vh;
   }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    color: azure;
+    font-size: 17px;
+    margin-bottom: 100px;
+}
+
+.link i {
+    color: #f3f3f3;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link i:hover {
+    color: azure;
+}
     
 /* Fin del estilo de Home*/
 
