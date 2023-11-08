@@ -338,6 +338,9 @@
   border-radius: 25px;
   box-shadow: 0 10px 18px #000000;
 }
+.compañia img:hover, .compra img:hover, .limpieza img:hover {
+ transform: scale(1.10);
+}
 
 #h1 {
   color: #fafafa;
@@ -397,6 +400,13 @@
 .butser img {
   
   height: 40px;
+}
+
+.butser:hover {
+  color:#c78943;
+  cursor: pointer;
+  background-color:#ffff ;
+  transform: scale(1.10);
 }
 
 .compañias,  .limpiezas {
