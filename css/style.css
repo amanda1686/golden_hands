@@ -95,20 +95,21 @@
   }
 
   .footer-content {
+    background-color: #90ccd1;
     display: flex;
     justify-content: space-between;
 }
 
 .link h3 {
-    color: azure;
+    color: #white;
     font-size: 17px;
     margin-bottom: 10px;
 }
 
 .link i {
-    color: #f3f3f3;
-    font-size: 15px;
-    display: block;
+    color: #203048;
+    font-size: 20px;
+    display: flex;
     margin-bottom: 10px;
 }
 
