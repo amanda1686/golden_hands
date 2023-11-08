@@ -93,13 +93,7 @@
     justify-content: center;
     height: 82vh;
   }
-
-  .footer-content {
-    background-color: #90ccd1;
-    display: flex;
-    justify-content: space-between;
-}
-    
+ 
 /* Fin del estilo de Home*/
 
 /*Estilo Login*/
@@ -532,7 +526,53 @@ color: #c78943;
 font-size: 35px;
 }
 /* Fin de la seccion de About */
-/**/
+
+/*Footer*/
+
+.footer {
+  background-color: #90ccd1;
+  display: flex;
+  align-items: center; /* Centra verticalmente el contenido del footer */
+  justify-content: center; /* Centra horizontalmente el contenido del footer */
+  height: 100px; /* Ajusta la altura del footer según tus necesidades */
+}
+
+.footer-content {
+  text-align: center; 
+}
+
+.link {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 20px; 
+}
+
+.link h3 {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.link ul {
+  list-style: none; 
+  padding: 0; 
+  display: flex;
+  gap: 10px; 
+}
+
+.link li {
+  color: #203048;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.link i:hover {
+  color: azure;
+}
+
+
+/*Fin del Footer*/
 
 /*Responsive*/ /*con responsabilidad*/
  
