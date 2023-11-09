@@ -587,12 +587,34 @@ font-size: 35px;
 /*Responsive*/ /*con responsabilidad*/
  
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   html {
    font-size: 12px;
-  } 
+  }
+
+  /*Estilos para la sección de Productos*/
+  .product-nav ul {
+    grid-template-columns: 1fr;
+    justify-content:center;
+    justify-items: left;
+    padding: 10px;
+  }
+
+  .product-content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .product {
+    padding: 5px;
+  }
+
+  .products{
+    padding: 10px;
+  }
+
+/*Fin productos*/
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 579px) {
    html {
        font-size: 10px;
    }
@@ -616,31 +638,28 @@ font-size: 35px;
       border-bottom-left-radius: 20px;
       border-top-right-radius: 0px;
   }
-/*Poner vuestro responsive aqui*/
-
 /* Fin del estilo de Home*/
 
 /*Estilos para la sección de Productos*/
+.product-nav ul {
+  grid-template-columns: 1fr;
+  justify-content:center;
+  justify-items: left;
+  padding: 10px;
+}
 
+.product-content {
+  grid-template-columns: 1fr 1fr;
+}
+
+.product {
+  padding: 5px;
+}
+
+.products{
+  padding: 10px;
+}
 /*Fin productos*/
-
-/* aqui empieza el estilo de la seccion servicios */
-
-/* Fin de la seccion de servicios */
-
-/* Estilos para la sección contacto */
-
-/* Fin de la seccion de contacto */
-
-/* Estilos para la sección About Us */
-
-
-/* Fin de la seccion de About */
-
-/*Footer*/
-
-/*Fin del Footer*/
-
 }  
 
 
