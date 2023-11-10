@@ -602,14 +602,16 @@ font-size: 35px;
 
   .product-content {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 10px;
   }
 
   .product {
-    padding: 5px;
+    padding: 10px;
   }
 
-  .products{
-    padding: 10px;
+  .products #gluten, #lacteos, #frutos{
+    padding: 20px;
   }
 
 /*Fin productos*/
