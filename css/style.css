@@ -448,7 +448,7 @@
   font-weight: bold;
 }
 .datos .subrayar{
-  background-color: #ffbf00;
+  text-decoration: underline gold;
   width: 42%;
 }
 .mapa{
@@ -615,6 +615,30 @@ font-size: 35px;
   }
 
 /*Fin productos*/
+    /* Estilos para la sección contacto */
+.central{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vh;
+}
+section .central{
+  margin-top: 0;
+}
+iframe{
+  width: 150%;
+}
+.formulario{
+  margin: 5% 10%;
+  width: 80%;
+}
+textarea{
+  width: 95%;
+}
+.autorizo{
+  margin-left: 10%;
+  width: 60%;
+}
+/* Fin de la seccion de contacto */
 }
 @media screen and (max-width: 579px) {
    html {
@@ -664,6 +688,30 @@ font-size: 35px;
   padding: 20px;
 }
 /*Fin productos*/
+  /* Estilos para la sección contacto */
+.central{
+  display: flex;
+  flex-wrap: wrap;
+}
+section .central{
+  margin-top: 0;
+}
+iframe{
+  width: 140%;
+}
+.formulario{
+  margin: 5% 10%;
+  width: 80%;
+}
+textarea{
+  width: 95%;
+}
+.autorizo{
+  margin-left: 10%;
+  width: 60%;
+}
+/* Fin de la seccion de contacto */
+  
 }  
 
 
