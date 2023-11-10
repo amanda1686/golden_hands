@@ -19,6 +19,7 @@
 
   <body>
     <header>
+      <div class="cabecera container">
       <div class="logo">
         <a href="index.html"><img class="logo"src="../images/logo/Golden_Hands.png" alt="Golden Hands Logo"/></a>
 
@@ -26,22 +27,26 @@
       <div class="company-name">
         <h1>GOLDEN HANDS</h1>
       </div>
-
-      <nav class="navegacion">
-        <ul class="navegacion">
-          <li class="navegacion"><a href="templates/Services.html">Services</a></li>
-          <li class="navegacion"><a href="templates/Products.html">Products</a></li>
-          <li class="navegacion"><a href="templates/Contact.html">Contact</a></li>
-          <li class="navegacion"><a href="templates/AboutUs.html">AboutUs</a></li>
-        </ul>
-      </nav>
       <div class="button-container">
         <a href="templates/login.html" class="login-button">Login</a>
         <button id="cart-button" onclick="addToCart()">Add to Cart</button>
       </div>
+    </div>
+      <nav class="navegacion container">
+        <ul class="nav-links">
+          <li><a href="templates/Services.html">Services</a></li>
+          <li><a href="templates/Products.html">Products</a></li>
+          <li><a href="templates/Contact.html">Contact</a></li>
+          <li><a href="templates/AboutUs.html">AboutUs</a></li>
+        </ul>
+      </nav>
+    
     </header>
 
-    <div id="home" class="background-image"></div>
+    <div id="home" class="background-image">
+      <p class="letra">TE ACOMPAÑAMOS EN TU DÍA A DÍA.<br>Contáctanos</p>
+    </div>
+
 
     <footer class="footer">
       <div class="footer-content container">
