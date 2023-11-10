@@ -71,8 +71,7 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    margin: 0px 32% 0px 32%;
-    position: absolute;
+    margin: 0px 32% 30% 32%;
     text-align: right;
     justify-content: flex-start;
     width: 100px;
