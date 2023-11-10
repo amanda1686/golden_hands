@@ -517,11 +517,12 @@ textarea{
 .acercade, .mision, .razones {
   background-color: #F3D28A;
   border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.5);
-  width: auto;
+  padding: 40px;
+  margin: 20px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+  width: center;
   text-align: center;
-  margin: 100px;
+ 
 }
 
 .acercade, .mision, .razones {
@@ -531,7 +532,7 @@ textarea{
 .parrafo1, .parrafo2, .parrafo3 {
   flex: 1;
   padding: 10px; 
-  margin: 30px;
+  margin: 15px;
 }
 
 .mision {
@@ -541,14 +542,44 @@ textarea{
 
 .titulo {
   color: #ffffff;
-  font-size: 50px;
+  background-color: #91422b;
+  font-size: 30px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
 .textacercade, .textmision, .textrazones {
   color: #91422b;
-  margin: 60px;
+  margin: 30px;
   font-size: 25px;
-  font-weight: 100;
+}
+
+.botonemail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c78943;
+  font-size: 25px;
+  margin: 30px;
+}
+
+.botonemail input[type="submit"] {
+  background-color: #91422b; /* Color #91422b para el fondo del botón */
+  color: #fff; /* Color blanco para el texto dentro del botón */
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px; /* Ajusta el radio del borde según sea necesario */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+.botonemail input[type="submit"]:hover {
+  background-color: #69311d; /* Cambia el color al pasar el mouse sobre el botón */
+}
+
+.botonemail input[type="email"] {
+font-size: 20px;
 }
 
 .agradecimiento {
