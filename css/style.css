@@ -95,14 +95,15 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: 82vh;
   }
 
   .letra{
-  margin: 1% 10% 50% 5%;
-  object-position: 5%;
-  transform: translate(-50%, -50%);
+  margin-top: 0%;  
+  margin-bottom: 10%;
+  margin-right: 2%;
+  margin-left: 2%;
   color: #203048;
   font-size: 19px; 
   font-weight: bold;
