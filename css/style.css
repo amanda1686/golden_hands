@@ -428,14 +428,14 @@
   transform: scale(1.10);
 }
 
-.compañias,  .limpiezas {
+.compañias-container,  .limpiezas-container {
   width: 900px;
   height: 50px;
-  margin-left: 70px;
+  margin-left: 80px;
   
 }
 
-.compras {
+.compras-container {
   width: 900px;
   height: 50px;
   margin-right: 70px;
