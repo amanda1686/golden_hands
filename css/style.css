@@ -606,35 +606,44 @@ font-size: 35px;
 /*Responsive*/ /*con responsabilidad*/
  
 
+/*Responsive*/ /*con responsabilidad*/
+ 
 @media screen and (max-width: 768px) {
   html {
-   font-size: 12px;
+    font-size: 12px;
   }
-/*HOME responsive */
+
+  /* Estilos para la sección de Home */
   header {
     width: 100%;
   }
+
   .letra {
     font-size: 14px;
     padding-left: 18%;
     margin-right: 5%;
   }
+
   .logo img {
     width: 100px;
     height: 90px;
   }
-  .float-container{
-    rid-template-rows: auto; /* Cambiar a filas automáticas en pantallas más pequeñas */
+
+  .float-container {
+    grid-template-rows: auto;
   }
-  .company-name h1{
+
+  .company-name h1 {
     text-align: center;
     font-size: 25px;
     margin-top: 10px;
   }
+
   .button-container {
     display: flex;
     width: 25%;
   }
+
   .navegacion ul {
     list-style: none;
     display: flex;
@@ -645,26 +654,53 @@ font-size: 35px;
     justify-content: flex-start;
     width: 100px;
   }
+
   .background-image {
-    background: url('../images/fondo/acompañamiento.png') no-repeat  fixed transparent;
-    background-size: cover;
-    display: flex;
-    position:static;
-    align-items: center;
-    justify-content: center;
     height: 65vh;
   }
-/*fin estilo de HOME responsive */
-  /*Estilos para la sección de Productos*/
+  /* Fin de estilos para la sección de Home */
+
+  /* Estilos para la sección de Servicios */
+  .compañia, .compra, .limpieza {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .imageneser, .imageneser1 {
+    height: 20vh;
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+
+  .compañias-container, .compras-container, .limpiezas-container {
+    margin-left: 10px;
+    height: 10vh;
+  }
+
+  .butser {
+    margin-left: 80px;
+  }
+
+  .com, .compr, .limp {
+    height: 75vh;
+  }
+
+  #h1 {
+    height: 2rem;
+    font-size: 12px;
+  }
+  /* Fin de estilos para la sección de Servicios */
+
+  /* Estilos para la sección de Productos */
   .product-nav ul {
     grid-template-columns: 1fr;
-    justify-content:center;
+    justify-content: center;
     justify-items: left;
     padding: 10px;
   }
-  
+
   .product-content {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     padding: 10px;
   }
@@ -673,147 +709,179 @@ font-size: 35px;
     padding: 10px;
   }
 
-  .products #gluten, #lacteos, #frutos{
+  .products #gluten, #lacteos, #frutos {
     padding: 20px;
   }
+  /* Fin de estilos para la sección de Productos */
 
-/*Fin productos*/
-    /* Estilos para la sección contacto */
-.central{
-  display: flex;
-  flex-wrap: wrap;
-  width: 80vh;
-}
-section .central{
-  margin-top: 0;
-}
-iframe{
-  width: 150%;
-}
-.formulario{
-  margin: 5% 10%;
-  width: 80%;
-}
-textarea{
-  width: 95%;
-}
-.autorizo{
-  margin-left: 10%;
-  width: 60%;
-}
-/* Fin de la seccion de contacto */
-}
-@media screen and (max-width: 579px) {
-   html {
-       font-size: 10px;
-   }
-
-   .container-form {
-      height: auto;
-      flex-direction: column;
-  }
-  .information {
-      width: 100%;
-      padding: 20px;
-      border-top-left-radius: 20px;
-      border-top-right-radius: 20px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
+  /* Estilos para la sección de Contacto */
+  .central {
+    display: flex;
+    flex-wrap: wrap;
   }
 
+  section .central {
+    margin-top: 0;
+  }
+
+  iframe {
+    width: 150%;
+  }
+
+  .formulario {
+    margin: 5% 10%;
+    width: 80%;
+  }
+
+  textarea {
+    width: 95%;
+  }
+
+  .autorizo {
+    margin-left: 10%;
+    width: 60%;
+  }
+  /* Fin de estilos para la sección de Contacto */
+}
+
+@media screen and (max-width: 580px) {
+  html {
+    font-size: 10px;
+  }
+
+  .container-form {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .information,
   .form-information {
-      width: 100%;
-      padding: 20px;
-      border-bottom-left-radius: 20px;
-      border-top-right-radius: 0px;
+    width: 100%;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
-/* home moviles */
+
   .letra {
     font-size: 14px;
     padding-left: 50%;
   }
+
   .logo img {
     width: 100px;
     height: 90px;
   }
-  .company-name h1{
+
+  .company-name h1 {
     text-align: center;
     font-size: 25px;
     margin-top: 10px;
   }
+
   .button-container {
     display: flex;
     width: 25%;
   }
-    
+
   .navegacion ul {
     list-style: none;
     display: flex;
     justify-content: center;
     padding: 8px;
-    margin: 20px 12 px;
+    margin: 20px 12px;
     text-align: right;
     justify-content: flex-start;
     width: 100px;
   }
 
   .background-image {
-    background: url('../images/fondo/acompañamiento.png') no-repeat  fixed transparent;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 65vh;
   }
-/* Fin del estilo de Home*/
 
-/*Estilos para la sección de Productos*/
-.product-nav ul {
-  grid-template-columns: 1fr;
-  justify-content:center;
-  justify-items: left;
-  padding: 10px;
+  /* Estilos para la sección de Servicios */
+  .compañia, .compra, .limpieza {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .imageneser, .imageneser1 {
+    height: 20vh;
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+
+  .compañias-container, .compras-container, .limpiezas-container {
+    margin-left: 10px;
+    height: 10vh;
+  }
+
+  .butser {
+    margin-left: 80px;
+  }
+
+  .com, .compr, .limp {
+    height: 75vh;
+  }
+
+  #h1 {
+    height: 2rem;
+    font-size: 12px;
+  }
+  /* Fin de estilos para la sección de Servicios */
+
+  /* Estilos para la sección de Productos */
+  .product-nav ul {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: left;
+    padding: 10px;
+  }
+
+  .product-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 10px;
+  }
+
+  .product {
+    padding: 10px;
+  }
+
+  .products #gluten, #lacteos, #frutos {
+    padding: 20px;
+  }
+  /* Fin de estilos para la sección de Productos */
+
+  /* Estilos para la sección de Contacto */
+  .central {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section .central {
+    margin-top: 0;
+  }
+
+  iframe {
+    width: 140%;
+  }
+
+  .formulario {
+    margin: 5% 10%;
+    width: 80%;
+  }
+
+  textarea {
+    width: 95%;
+  }
+
+  .autorizo {
+    margin-left: 10%;
+    width: 60%;
+  }
+  /* Fin de estilos para la sección de Contacto */
 }
 
-.product-content {
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  padding: 10px;
-}
-
-.product {
-  padding: 10px;
-}
-
-.products #gluten, #lacteo, #frutos{
-  padding: 20px;
-}
-/*Fin productos*/
-  /* Estilos para la sección contacto */
-.central{
-  display: flex;
-  flex-wrap: wrap;
-}
-section .central{
-  margin-top: 0;
-}
-iframe{
-  width: 140%;
-}
-.formulario{
-  margin: 5% 10%;
-  width: 80%;
-}
-textarea{
-  width: 95%;
-}
-.autorizo{
-  margin-left: 10%;
-  width: 60%;
-}
-/* Fin de la seccion de contacto */
-  
-}  
-
-
-/*Fin del responsivve*/
+/* Fin del responsive */
