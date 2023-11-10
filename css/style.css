@@ -432,13 +432,15 @@
   width: 900px;
   height: 50px;
   margin-left: 80px;
+  margin-top: 40px;
   
 }
 
 .compras-container {
   width: 900px;
   height: 50px;
-  margin-right: 70px;
+  margin-right: 80px;
+  margin-top: 40px;
 }
 
 .compañias, .compras, .limpiezas  {
