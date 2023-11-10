@@ -803,6 +803,22 @@ font-size: 35px;
     border-bottom-right-radius: 0px;
   }
 
+  header{
+    padding: 10px;
+    background-color: #90ccd1;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .cabecera {
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
   .letra {
     font-size: 14px;
     padding-left: 50%;
@@ -824,13 +840,10 @@ font-size: 35px;
     width: 25%;
   }
 
-  .navegacion ul {
+  .nav-links {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 8px;
-    margin: 20px 12px;
-    text-align: right;
     justify-content: flex-start;
     width: 100px;
   }
@@ -921,6 +934,15 @@ font-size: 35px;
     width: 60%;
   }
   /* Fin de estilos para la sección de Contacto */
+  /*Footer*/
+
+  .link h3 {
+    font-size: 16px;
+  }
+
+  .link li {
+    font-size: 16px;
+  }
 }
 
 /* Fin del responsive */
