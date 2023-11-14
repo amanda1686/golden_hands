@@ -668,7 +668,7 @@ font-size: 35px;
     align-content: flex-start;
     flex-wrap: wrap;
     justify-content: center;
-}
+  }
 
   .company-name h1 {
     text-align: center;
@@ -782,11 +782,22 @@ font-size: 35px;
   /* Fin de estilos para la sección de Contacto */
 
    /* Estilos para la sección de about */
-  @media screen and (max-width: 768px) {
     .parrafo1,
     .parrafo2,
     .parrafo3 {
       margin: 10px;
+    }
+
+    .acercade,
+    .mision,
+    .razones {
+      flex-direction: column;
+    }
+
+    .parrafo1,
+    .parrafo2,
+    .parrafo3 {
+      width: 100%;
     }
   
     .titulo {
@@ -802,6 +813,7 @@ font-size: 35px;
     .agradecimiento {
       font-size: 24px;
     }
+    
   /* Fin de estilos para la sección de about */
 }
 
@@ -839,7 +851,7 @@ font-size: 35px;
     align-content: flex-start;
     flex-wrap: wrap;
     justify-content: center;
-}
+  }
 
   .letra {
     font-size: 14px;
@@ -956,17 +968,21 @@ font-size: 35px;
     width: 60%;
   }
   /* Fin de estilos para la sección de Contacto */
-  /*Footer*/
 
-  .link h3 {
-    font-size: 16px;
+  /* Estilos para la sección de about */
+
+  .acercade,
+  .mision,
+  .razones {
+    flex-direction: column;
+  }
+  
+  .parrafo1,
+  .parrafo2,
+  .parrafo3 {
+    width: 100%;
   }
 
-  .link li {
-    font-size: 16px;
-  }
-
-   /* Estilos para la sección de about */
   .titulo {
     font-size: 18px;
   }
@@ -981,7 +997,33 @@ font-size: 35px;
     font-size: 20px;
   }
 
+  .acercade img,
+  .mision img,
+  .razones img {
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes */
+    height: auto;   /* Permite que la altura se ajuste automáticamente */
+    border-radius: 10px; /* Añade bordes redondeados si es necesario */
+  }
+
+  .parrafo1,
+  .parrafo2,
+  .parrafo3 {
+    margin: 5px; /* Reducir el margen en pantallas más pequeñas si es necesario */
+  }
+
   /* fin estilos para la sección de about */
+  
+  /*Footer*/
+
+  .link h3 {
+    font-size: 16px;
+  }
+
+  .link li {
+    font-size: 16px;
+  }
+
+  
 }
 
 /* Fin del responsive */
