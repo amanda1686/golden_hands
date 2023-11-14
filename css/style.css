@@ -780,6 +780,29 @@ font-size: 35px;
     width: 60%;
   }
   /* Fin de estilos para la sección de Contacto */
+
+   /* Estilos para la sección de about */
+  @media screen and (max-width: 768px) {
+    .parrafo1,
+    .parrafo2,
+    .parrafo3 {
+      margin: 10px;
+    }
+  
+    .titulo {
+      font-size: 20px;
+    }
+  
+    .textacercade,
+    .textmision,
+    .textrazones {
+      font-size: 16px;
+    }
+  
+    .agradecimiento {
+      font-size: 24px;
+    }
+  /* Fin de estilos para la sección de about */
 }
 
 @media screen and (max-width: 580px) {
@@ -942,6 +965,23 @@ font-size: 35px;
   .link li {
     font-size: 16px;
   }
+
+   /* Estilos para la sección de about */
+  .titulo {
+    font-size: 18px;
+  }
+
+  .textacercade,
+  .textmision,
+  .textrazones {
+    font-size: 14px;
+  }
+
+  .agradecimiento {
+    font-size: 20px;
+  }
+
+  /* fin estilos para la sección de about */
 }
 
 /* Fin del responsive */
