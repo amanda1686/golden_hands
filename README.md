@@ -1,8 +1,7 @@
-# Golden Hands
 
 # Golden Hands :raised_hands::sparkles:
 
-![image](https://github.com/amanda1686/golden_hands/assets/80174591/e5889431-ff1f-4f4c-ac8a-2ae3b93f83a7){:height="150px" width="200px"}
+<img src="https://github.com/amanda1686/golden_hands/assets/80174591/e5889431-ff1f-4f4c-ac8a-2ae3b93f83a7" alt="image" style="width:200px;height:150px;">
 
 Golden Hands es una innovadora web especializada en ofrecer servicios de alimentación para personas mayores, así como para aquellos con intolerancias alimentarias diversas. :older_man::older_woman::apple::broccoli:
 
